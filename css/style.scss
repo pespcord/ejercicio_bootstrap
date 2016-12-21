@@ -32,11 +32,18 @@ header {
 			}
 		}
 
-	.navbar-form {
-		&.navbar-left {
-			width: 70%;
-			height: 200px;
+	
+.navbar-form {
+	.form-group {
+		input {
+			width: 100%;
 		}
+
 	}
+
+}
+			
+
+
 
 
