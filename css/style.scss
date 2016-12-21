@@ -1,0 +1,42 @@
+header {
+	padding: 20px;
+	.navbar-default {
+	    background-color: #fff;
+	    border-color: #e7e7e7;
+		.navbar-default.navbar-nav li a {
+		    color: #1b2e41;
+		}
+	}
+}	
+	.imagenFondo {
+			background-image: url("http://www.busign.nl/images/indexbanner-bg.jpg") ;
+			width: 100%;
+			height: 361px;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			.container {
+				.jumbotron {
+					background-color: transparent;
+					vertical-align: middle;
+					h1 {
+						color: #fff;
+						font-size: 40px;
+					}
+					p {
+						color: #fff;
+						font-size: 15px;
+					}
+				}
+
+			}
+		}
+
+	.navbar-form {
+		&.navbar-left {
+			width: 70%;
+			height: 200px;
+		}
+	}
+
+
